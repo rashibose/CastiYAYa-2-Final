@@ -1117,7 +1117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GjO-7Z-8d0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2683" y="210"/>
+            <point key="canvasLocation" x="2682.608695652174" y="209.5108695652174"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CBf-Q6-fjY">
@@ -1437,7 +1437,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="731-NO-3MF">
                                 <rect key="frame" x="0.0" y="53" width="414" height="35"/>
-                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1462,7 +1462,7 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Middle School Lobby ">
-                                                    <color key="titleColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="2Oy-em-mjt"/>
@@ -1470,7 +1470,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Di2-6q-soU">
                                                 <rect key="frame" x="298" y="0.0" width="116" height="44"/>
-                                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Fishbowl ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1489,8 +1489,8 @@
                                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7c-IX-0Vd">
-                                                <rect key="frame" x="0.0" y="0.0" width="66" height="44"/>
-                                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="44"/>
+                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gym ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1500,19 +1500,19 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-Be-RWa">
-                                                <rect key="frame" x="66" y="0.0" width="98" height="44"/>
+                                                <rect key="frame" x="138" y="0.0" width="98" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Library ">
-                                                    <color key="titleColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="so1-aO-lr0"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-Dl-NYE">
-                                                <rect key="frame" x="164" y="0.0" width="97" height="44"/>
-                                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="236" y="0.0" width="97" height="44"/>
+                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gallery ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1522,11 +1522,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPR-Ra-oWk">
-                                                <rect key="frame" x="261" y="0.0" width="153" height="44"/>
+                                                <rect key="frame" x="333" y="0.0" width="81" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Circle ">
-                                                    <color key="titleColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Qjv-fS-CsN" kind="show" id="nYY-ki-tM8"/>
@@ -1538,8 +1538,8 @@
                                         <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIg-cB-GzO">
-                                                <rect key="frame" x="0.0" y="0.0" width="133" height="44"/>
-                                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="223" height="44"/>
+                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Bourn Lab ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1549,11 +1549,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id8-eT-MNc">
-                                                <rect key="frame" x="133" y="0.0" width="281" height="44"/>
+                                                <rect key="frame" x="223" y="0.0" width="191" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Chapel Theatre ">
-                                                    <color key="titleColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                         </subviews>
@@ -1646,7 +1646,7 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVo-Rd-6Yt">
                                                 <rect key="frame" x="0.0" y="53" width="375" height="34.333333333333343"/>
-                                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1751,10 +1751,13 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="1Y9-eM-TJO" kind="show" id="GKx-Rl-hQC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzH-9N-CVq">
                                 <rect key="frame" x="0.0" y="53" width="414" height="35"/>
-                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1788,6 +1791,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ODz-ST-Woe" kind="show" id="rGE-zK-cVa"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="whI-zD-33F">
                                 <rect key="frame" x="46" y="457" width="65" height="71"/>
@@ -1881,7 +1887,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViW-CG-erG">
                                 <rect key="frame" x="0.0" y="53" width="414" height="35"/>
-                                <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -4002,6 +4008,68 @@
                                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JBl-cw-5De">
+                                                <rect key="frame" x="9" y="96" width="357" height="102"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="357" id="23y-bO-IdK"/>
+                                                    <constraint firstAttribute="height" constant="130" id="Tch-Kh-Mg9"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="q94-PN-kcR"/>
+                                                </constraints>
+                                                <string key="text">On this page, check out some of the classes you'd take next year at Casti, and some testimonials from girls who've gone through them!</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="English 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcL-9q-scb">
+                                                <rect key="frame" x="8" y="206" width="86" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="1fA-ti-nHE"/>
+                                                    <constraint firstAttribute="height" constant="27" id="GyG-9w-6Ea"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="MgG-PT-Wn5"/>
+                                                    <constraint firstAttribute="width" constant="110" id="Qs7-rn-79E"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="oEv-Fi-Mvc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uB8-M6-TYv">
+                                                <rect key="frame" x="10" y="241" width="357" height="289"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="1fh-a8-OnZ"/>
+                                                    <constraint firstAttribute="width" constant="357" id="HXq-96-g5I"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="Wgt-TX-6Up"/>
+                                                </constraints>
+                                                <string key="text">-  Read across the genres and across time and place
+-  Class will require you to read closely, look for larger ideas, and make connections beyond the text
+-  Vocabulary is generated by our reading and grammar begins with the parts of speech.
+-  Texts: Selected poetry; Creation myths; Fairy tales; Bible stories; D'Aulaires Book of Greek Myths; The London Eye Mystery, Siobhan Dowd; The Evolution of Calpurnia Tate, Jacqueline Kelly</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Testimonial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8U-zv-hh5">
+                                                <rect key="frame" x="10" y="529" width="110" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="27" id="FbQ-ep-Vpm"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="Grc-cP-W6l"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="K9e-92-jKD"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="hQu-9C-fwe"/>
+                                                    <constraint firstAttribute="width" constant="110" id="rqk-W6-dqa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="72w-4H-iyh">
+                                                <rect key="frame" x="8" y="556" width="357" height="242.66666666666666"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="357" id="XwF-90-neL"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="m5w-u3-J99"/>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="usb-Ya-IJJ"/>
+                                                </constraints>
+                                                <string key="text">“I've always liked the variety in Castilleja classes. There are so many interesting projects apart from just lectures on material. In 6th grade math, we used our statistics skills to analyze two different fast food restaurants of our choice. In 8th grade history, we designed and built our own monument. In 10th grade English, we staged an entire trial of Macbeth.” -Alexa Crowder, ‘20</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -4040,7 +4108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSY-zG-TIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9359" y="-456"/>
+            <point key="canvasLocation" x="9358.6956521739139" y="-456.52173913043481"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wF8-ag-KI8">
@@ -4599,12 +4667,13 @@
         <segue reference="5yk-GP-dX9"/>
         <segue reference="bdL-0D-fCq"/>
         <segue reference="Hdg-jS-Fpa"/>
-        <segue reference="tV8-vY-lln"/>
+        <segue reference="wTa-Qn-W0e"/>
         <segue reference="rg8-B6-iTu"/>
-        <segue reference="dof-BY-n7J"/>
+        <segue reference="33P-xD-a5B"/>
+        <segue reference="IVh-ZG-UxZ"/>
         <segue reference="Xgp-Wd-TsZ"/>
         <segue reference="pZv-vs-Gja"/>
-        <segue reference="gxc-N5-3XO"/>
+        <segue reference="mZf-k1-ex4"/>
         <segue reference="WlC-A7-ntd"/>
         <segue reference="lMf-ng-lL5"/>
     </inferredMetricsTieBreakers>
