@@ -2032,10 +2032,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="a7j-d5-rV3">
-                                        <rect key="frame" x="100" y="498" width="174" height="136"/>
+                                        <rect key="frame" x="100" y="498" width="174.66666666666663" height="136"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-hj-pZj">
-                                                <rect key="frame" x="0.0" y="0.0" width="174" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="174.66666666666666" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="174" id="OxP-Bx-q61"/>
                                                     <constraint firstAttribute="height" constant="34" id="tXu-2J-leZ"/>
@@ -2049,7 +2049,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63t-ia-UlU">
-                                                <rect key="frame" x="0.0" y="34" width="174" height="34"/>
+                                                <rect key="frame" x="0.0" y="34" width="174.66666666666666" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="174" id="1U8-vq-DgD"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="TQJ-MI-sQz"/>
@@ -2064,7 +2064,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUb-eL-k4Q">
-                                                <rect key="frame" x="0.0" y="68" width="174" height="34"/>
+                                                <rect key="frame" x="0.0" y="68" width="174.66666666666666" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="0Ny-da-d4h"/>
                                                     <constraint firstAttribute="width" constant="174" id="9t3-Iw-4t5"/>
@@ -2075,7 +2075,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbH-ms-TJE">
-                                                <rect key="frame" x="0.0" y="102" width="174" height="34"/>
+                                                <rect key="frame" x="0.0" y="102" width="174.66666666666666" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="174" id="Zfc-DW-R5t"/>
                                                     <constraint firstAttribute="height" constant="34" id="Zs7-IE-i4i"/>
@@ -3642,6 +3642,58 @@
                                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iJM-O0-lhz">
+                                                <rect key="frame" x="8" y="134" width="357" height="217"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="Seg-Ws-Bzs"/>
+                                                    <constraint firstAttribute="width" constant="357" id="eQE-vm-9T5"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="kH2-af-vDy"/>
+                                                </constraints>
+                                                <string key="text">"In 7th grade, I had a project in the Bourn Lab as part of our science class. We had to build a robot that could trace certain pattern on a whiteboard table with a maker. It was definitely challenging, but we had fun! I also remember that the day we presented was Halloween, and we got to do in full costume and I thought that was so cool." -Alexa Crowder, '20</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Testimonial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ng-pk-IT5">
+                                                <rect key="frame" x="8" y="99" width="110" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="110" id="ARC-7I-zOc"/>
+                                                    <constraint firstAttribute="height" constant="27" id="OGS-Rd-BWl"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="PVi-CQ-AoS"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="rGX-AO-hpf"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="v1X-ZE-ha4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fum-Pb-pD6">
+                                                <rect key="frame" x="10" y="622" width="357" height="220"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="kGj-bA-Ykn"/>
+                                                    <constraint firstAttribute="width" constant="357" id="ujw-fD-ldb"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="wkM-SP-uXU"/>
+                                                </constraints>
+                                                <string key="text">"I was part of the Middle School Robotics Team (I did FLL). After the big tournament, we had a teardown party. So, we destroyed our robot, our prototype, our poster, everything. It was so much fun to get together one last time with the team and break everything (it sounds like it would be sad to ruin our hard work, but it was actually really fun)." -Julie Sidana, '24</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Testimonial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkb-oQ-xBc">
+                                                <rect key="frame" x="12" y="594" width="110" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="4SD-1e-ZaA"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="Qha-8E-NEn"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="jzi-BP-a8X"/>
+                                                    <constraint firstAttribute="height" constant="27" id="wAi-ki-3UD"/>
+                                                    <constraint firstAttribute="width" constant="110" id="yyt-7U-ziH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hew-To-2Ek">
+                                                <rect key="frame" x="10" y="368" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -3680,7 +3732,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Db-b8-cOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8092" y="-458"/>
+            <point key="canvasLocation" x="8090.579710144928" y="-458.1521739130435"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="601-Ax-aMn">
@@ -4177,7 +4229,7 @@
                                                     <constraint firstAttribute="height" constant="378.66666666666669" id="hYm-6g-I99"/>
                                                     <constraint firstAttribute="width" constant="357" id="xq2-Hv-5IH"/>
                                                 </constraints>
-                                                <mutableString key="text">"I always looked forward to electives in middle school! One that stands out was Gator Media. At the start of the rotation, we broke out into pairs or smaller groups and chose a Casti-related media project to create. My friend and I decided to make a "goodbye, middle school" video, since we were finishing up 8th grade. We interviewed and filmed a bunch of our classmates for their memories and advice. At the end, we showed our movie to the whole middle school at a meeting. At the meeting, it was a smaller group, but I loved our advisor, and there were always snacks! I remember really looking forward to elective time in Gator Media. " -Alexa Crowder, '20</mutableString>
+                                                <string key="text">"I always looked forward to electives in middle school! One that stands out was Gator Media. At the start of the rotation, we broke out into pairs or smaller groups and chose a Casti-related media project to create. My friend and I decided to make a "goodbye, middle school" video, since we were finishing up 8th grade. We interviewed and filmed a bunch of our classmates for their memories and advice. At the end, we showed our movie to the whole middle school at a meeting. At the meeting, it was a smaller group, but I loved our advisor, and there were always snacks! I remember really looking forward to elective time in Gator Media. " -Alexa Crowder, '20</string>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -4265,7 +4317,7 @@
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="357" id="een-OU-2Gn"/>
                                                     <constraint firstAttribute="height" constant="429" id="yMg-eA-xii"/>
                                                 </constraints>
-                                                <mutableString key="text">"My most favorite elective is probably the Print Studio. We get to use the printing press in the Lockey House Garage. I think that this is so much fun, and the idea of printing fascinates me. It is so much fun to experiment with different fonts, textures, types of paper, and especially colors. It is super satisfying when the tacky ink spreads across the rollers and turns into an ombre when you mix two colors. I think this is a great elective to try if you want to try something new, because being able to use a printing press is not an ordinary thing; It is unusual to find a printing press and be able to use it. I think that this is a great example of how Castilleja gives you the opportunity to try new things maybe you didn't or couldn't try before." -Sena Lee, '24</mutableString>
+                                                <string key="text">"My most favorite elective is probably the Print Studio. We get to use the printing press in the Lockey House Garage. I think that this is so much fun, and the idea of printing fascinates me. It is so much fun to experiment with different fonts, textures, types of paper, and especially colors. It is super satisfying when the tacky ink spreads across the rollers and turns into an ombre when you mix two colors. I think this is a great elective to try if you want to try something new, because being able to use a printing press is not an ordinary thing; It is unusual to find a printing press and be able to use it. I think that this is a great example of how Castilleja gives you the opportunity to try new things maybe you didn't or couldn't try before." -Sena Lee, '24</string>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -4554,6 +4606,6 @@
         <segue reference="pZv-vs-Gja"/>
         <segue reference="gxc-N5-3XO"/>
         <segue reference="WlC-A7-ntd"/>
-        <segue reference="brg-VE-bpP"/>
+        <segue reference="lMf-ng-lL5"/>
     </inferredMetricsTieBreakers>
 </document>
