@@ -1489,7 +1489,7 @@
                                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7c-IX-0Vd">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="66" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gym ">
@@ -1500,7 +1500,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-Be-RWa">
-                                                <rect key="frame" x="138" y="0.0" width="98" height="44"/>
+                                                <rect key="frame" x="66" y="0.0" width="98" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Library ">
@@ -1511,7 +1511,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-Dl-NYE">
-                                                <rect key="frame" x="236" y="0.0" width="97" height="44"/>
+                                                <rect key="frame" x="164" y="0.0" width="97" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gallery ">
@@ -1522,7 +1522,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPR-Ra-oWk">
-                                                <rect key="frame" x="333" y="0.0" width="81" height="44"/>
+                                                <rect key="frame" x="261" y="0.0" width="153" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Circle ">
@@ -1538,7 +1538,7 @@
                                         <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIg-cB-GzO">
-                                                <rect key="frame" x="0.0" y="0.0" width="223" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Bourn Lab ">
@@ -1549,7 +1549,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id8-eT-MNc">
-                                                <rect key="frame" x="223" y="0.0" width="191" height="44"/>
+                                                <rect key="frame" x="133" y="0.0" width="281" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Chapel Theatre ">
@@ -2038,10 +2038,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="a7j-d5-rV3">
-                                        <rect key="frame" x="100" y="498" width="174.66666666666663" height="136"/>
+                                        <rect key="frame" x="100" y="498" width="174.33333333333331" height="136"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-hj-pZj">
-                                                <rect key="frame" x="0.0" y="0.0" width="174.66666666666666" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="174.33333333333334" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="174" id="OxP-Bx-q61"/>
                                                     <constraint firstAttribute="height" constant="34" id="tXu-2J-leZ"/>
@@ -2055,7 +2055,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63t-ia-UlU">
-                                                <rect key="frame" x="0.0" y="34" width="174.66666666666666" height="34"/>
+                                                <rect key="frame" x="0.0" y="34" width="174.33333333333334" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="174" id="1U8-vq-DgD"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="TQJ-MI-sQz"/>
@@ -2070,7 +2070,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUb-eL-k4Q">
-                                                <rect key="frame" x="0.0" y="68" width="174.66666666666666" height="34"/>
+                                                <rect key="frame" x="0.0" y="68" width="174.33333333333334" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="0Ny-da-d4h"/>
                                                     <constraint firstAttribute="width" constant="174" id="9t3-Iw-4t5"/>
@@ -2081,7 +2081,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbH-ms-TJE">
-                                                <rect key="frame" x="0.0" y="102" width="174.66666666666666" height="34"/>
+                                                <rect key="frame" x="0.0" y="102" width="174.33333333333334" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="174" id="Zfc-DW-R5t"/>
                                                     <constraint firstAttribute="height" constant="34" id="Zs7-IE-i4i"/>
@@ -3972,14 +3972,14 @@
             <objects>
                 <viewController id="pzN-Sn-Yao" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="va7-Kx-GLf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="3420"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6TH-Ea-lcf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="3420"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPO-xh-ZXb">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tPO-xh-ZXb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUz-ir-phR">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
@@ -4070,6 +4070,196 @@
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Math 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5li-T1-SmU">
+                                                <rect key="frame" x="8" y="806" width="64" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="110" id="AwW-jq-A7r"/>
+                                                    <constraint firstAttribute="height" constant="27" id="Uss-s8-IPc"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="WaT-rt-biK"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="iuv-b7-LZx"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="tcf-VL-a1b"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Mr-P7-v6S">
+                                                <rect key="frame" x="10" y="841" width="357" height="289"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="HlR-i5-J5Q"/>
+                                                    <constraint firstAttribute="width" constant="357" id="OkT-K3-QYa"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="TjM-j2-LZz"/>
+                                                </constraints>
+                                                <string key="text">-  Explore fundamentals of arithmetic, algebra, statistics, and geometry 
+-  Students actively participate in collaborative problem solving and help create an atmosphere in which learning mathematics is interesting and fun
+-  Hands-on activities are used to explore concepts, while mastery of arithmetic skills and estimation is strongly emphasized
+</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="History 6 (Ancient Civilizations)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-65-gUh">
+                                                <rect key="frame" x="8" y="1068" width="293" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="4m1-BP-OFf"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="OjP-mX-heI"/>
+                                                    <constraint firstAttribute="width" constant="110" id="WDk-p4-mTR"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="ieM-5b-Pjr"/>
+                                                    <constraint firstAttribute="height" constant="27" id="y2C-Fb-BYI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kCu-XX-DQn">
+                                                <rect key="frame" x="9" y="1103" width="357" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="357" id="jZW-YN-pxB"/>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="pXK-UR-ot3"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="qA0-SO-tTA"/>
+                                                </constraints>
+                                                <mutableString key="text">-  From our earliest human ancestors to the fall of Rome, this course explores what it means to be human and how civilizations around the world have developed and declined
+-  Begin by reading about Herodotus and asking, "What is history?" 
+-  Learning how to analyze a primary source and how to provide evidence to defend our claims
+-  Projects all involve student choice and voice; students create historical replicas, illustrations, iMovies, posters, and oral presentations. 
+-  Girls begin to construct their own ideas about world issues and to see themselves as historical actors.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Testimonial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg1-bD-RQg">
+                                                <rect key="frame" x="7" y="1511" width="110" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="110" id="8oe-hP-o5B"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="ZBE-Qu-9fN"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="hes-S5-SJq"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="lCV-Gt-DYe"/>
+                                                    <constraint firstAttribute="height" constant="27" id="pEq-dC-tH7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LuX-bW-5uD">
+                                                <rect key="frame" x="8" y="1538" width="357" height="244"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="NUr-ho-vnT"/>
+                                                    <constraint firstAttribute="width" constant="357" id="cqn-Cr-duT"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="pdW-pZ-9PG"/>
+                                                </constraints>
+                                                <string key="text">“Emoji-check in with Mr. Toben is awesome. You get to pick emojis and explain why you picked the emoji. It lets everyone know what things people have been up to, and focuses on our lives outside of school too. We also onced use british accents in wellness, and a lot of people could not stop from laughing. It sounded like this, "Hello, how *muffled laughter* was your day?" in a british accent every time.” -Natalie Wong, ‘24</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Science 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlC-4r-azH">
+                                                <rect key="frame" x="9" y="1777" width="87" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="1Vs-XY-523"/>
+                                                    <constraint firstAttribute="height" constant="27" id="Via-zk-PGR"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="bNJ-gw-L3f"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="c5g-p4-dra"/>
+                                                    <constraint firstAttribute="width" constant="110" id="nqc-5m-9JJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zsp-2u-k9Z">
+                                                <rect key="frame" x="8" y="1800" width="357" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="1aA-cT-7df"/>
+                                                    <constraint firstAttribute="width" constant="357" id="ULD-Ar-9xM"/>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="vNT-Z2-8JY"/>
+                                                </constraints>
+                                                <string key="text">-  Introduce students to scientific skills through experimentation, observations, small group projects, and collaborative learning
+-  Students learn to explore the world around them using Earth Science topics such as cartography, geological time, plate tectonics, natural resources, sustainability, climate and pollution
+-  The culminating experience for the year is a group-based, student-driven inquiry project rooted in topics explored throughout the year and shared with the Castilleja community.
+</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Testimonial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9d-be-fGI">
+                                                <rect key="frame" x="10" y="2360" width="110" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="95O-0U-onO"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="H6i-1m-zjd"/>
+                                                    <constraint firstAttribute="width" constant="110" id="RA9-4x-jwt"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="blJ-x0-mnZ"/>
+                                                    <constraint firstAttribute="height" constant="27" id="jEg-m2-oj7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-fD-PgK">
+                                                <rect key="frame" x="8" y="2380" width="357" height="169"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="MgQ-Tl-OiQ"/>
+                                                    <constraint firstAttribute="width" constant="357" id="rkn-aS-RS3"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="zcd-sJ-x2v"/>
+                                                </constraints>
+                                                <string key="text">“While I was in English, Mr. Toben told us this phrase: "Legends are lessons that ring with truth". So, from then on, I always have this phrase at the back of my head. It's something that I will take with me throughout my Castilleja experience.” -Julie Sidana, ‘24</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Art 6: Explore and Create" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-Vd-j4q">
+                                                <rect key="frame" x="14" y="2557" width="233" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="2hO-1I-url"/>
+                                                    <constraint firstAttribute="height" constant="27" id="7wh-9S-mfQ"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="E0E-2w-31L"/>
+                                                    <constraint firstAttribute="width" constant="110" id="KdM-G0-b6c"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="M9a-rf-Hgd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QGY-7o-My7">
+                                                <rect key="frame" x="13" y="2580" width="357" height="216"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="1KN-cZ-9kj"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="kOx-zc-utj"/>
+                                                    <constraint firstAttribute="width" constant="357" id="tXC-IV-h47"/>
+                                                </constraints>
+                                                <string key="text">-  Sixth grade art is a course that emphasizes the joys of artistic production and interdisciplinary learning in a relaxed environment conducive to creative exploration and development
+-  Students explore the elements of art, learn basic drawing techniques, work in two and three-dimensional forms, and experiment with diverse media
+</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fitness &amp; Wellness 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFx-Wl-WHP">
+                                                <rect key="frame" x="11" y="2804" width="190" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="86b-6a-t3M"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="INd-iL-1Q9"/>
+                                                    <constraint firstAttribute="width" constant="110" id="a0b-IJ-APE"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="dcQ-L7-eOw"/>
+                                                    <constraint firstAttribute="height" constant="27" id="uDT-OM-lC9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SCIENCE" translatesAutoresizingMaskIntoConstraints="NO" id="m7n-Ny-zY8">
+                                                <rect key="frame" x="12" y="2142" width="352" height="210"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oAf-sq-beu">
+                                                <rect key="frame" x="7" y="2839" width="357" height="586"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="O14-WU-MWc"/>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="fBG-8u-Ljn"/>
+                                                    <constraint firstAttribute="width" constant="357" id="ugC-x9-E8k"/>
+                                                </constraints>
+                                                <mutableString key="text">-  Fitness units include cooperative games, swimming, team and individual sports such as tchoukball, track and field, pickleball, disc lacrosse, and striking and fielding. 
+-  Emphasis is placed on acquisition and building of movement skills through sequential learning and practiced motor patterns, and then applied in activities or games. 
+-  Students have opportunities for creativity and self-expression while collaborating on group routines in the Acro-Yoga and Circus units. 
+-  Wellness units give students the opportunity to engage in discussions, connect with peers, share authentically, practice skills through role play, learn skills related to overall social and emotional health, and to reflect on their individual journey. 
+-  Students participate in a series of lessons and activities to promote healthy choices about emotional health, communication, relationships, nutrition, exercise, time management, and human growth and development.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -4104,11 +4294,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dpM-08-j66"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1000"/>
+                    <size key="freeformSize" width="375" height="3420"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSY-zG-TIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9358.6956521739139" y="-456.52173913043481"/>
+            <point key="canvasLocation" x="9388" y="530"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wF8-ag-KI8">
@@ -4642,6 +4832,7 @@
         <image name="FADIDA" width="812" height="419"/>
         <image name="FoundersDay" width="3216" height="2136"/>
         <image name="Red_X.svg" width="2000" height="2000"/>
+        <image name="SCIENCE" width="2400" height="1600"/>
         <image name="TieCeremony" width="1200" height="800"/>
         <image name="check" width="237" height="213"/>
         <image name="flag-football" width="120" height="100"/>

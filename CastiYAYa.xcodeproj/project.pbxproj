@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD341F2C2085984900C1A1FD /* IMG_7770-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD341F2B2085983F00C1A1FD /* IMG_7770-2.jpg */; };
 		AD72B44B2058221B00228BE5 /* TraditionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72B44A2058221B00228BE5 /* TraditionsTableViewController.swift */; };
 		AD79DCB72049AD5400955C42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79DCB62049AD5400955C42 /* HomeViewController.swift */; };
 		ADA427B4206957180089DED5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ADA427B3206957180089DED5 /* .gitignore */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD341F2B2085983F00C1A1FD /* IMG_7770-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_7770-2.jpg"; sourceTree = "<group>"; };
 		AD72B44A2058221B00228BE5 /* TraditionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionsTableViewController.swift; sourceTree = "<group>"; };
 		AD79DCB62049AD5400955C42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ADA427B3206957180089DED5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				ADC4A367204757C500B5EF69 /* Main.storyboard */,
 				ADA427B3206957180089DED5 /* .gitignore */,
 				ADC4A36A204757C500B5EF69 /* Assets.xcassets */,
+				AD341F2B2085983F00C1A1FD /* IMG_7770-2.jpg */,
 				ADC4A36C204757C500B5EF69 /* LaunchScreen.storyboard */,
 				ADC4A36F204757C500B5EF69 /* Info.plist */,
 				ADC4A391204757D400B5EF69 /* fonts */,
@@ -317,6 +320,7 @@
 				ADC4A3AA204757D400B5EF69 /* Overpass-ExtraBold.ttf in Resources */,
 				ADC4A3B2204757D400B5EF69 /* Overpass-SemiBold.ttf in Resources */,
 				ADC4A3AC204757D400B5EF69 /* Overpass-ExtraLight.ttf in Resources */,
+				AD341F2C2085984900C1A1FD /* IMG_7770-2.jpg in Resources */,
 				ADC4A36E204757C500B5EF69 /* LaunchScreen.storyboard in Resources */,
 				ADC4A3AD204757D400B5EF69 /* Overpass-ExtraLightItalic.ttf in Resources */,
 				ADC4A3B5204757D400B5EF69 /* Overpass-ThinItalic.ttf in Resources */,
