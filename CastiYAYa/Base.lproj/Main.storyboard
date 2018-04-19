@@ -11,8 +11,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Overpass-Bold.ttf">
+            <string>Overpass-Bold</string>
+        </array>
         <array key="Overpass-ExtraBold.ttf">
             <string>Overpass-ExtraBold</string>
+        </array>
+        <array key="Overpass-Italic.ttf">
+            <string>Overpass-Italic</string>
         </array>
         <array key="Overpass-Regular.ttf">
             <string>Overpass-Regular</string>
@@ -2475,21 +2481,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lE8-a3-0aN">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lE8-a3-0aN">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOj-9J-gKW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOj-9J-gKW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="950-FC-wiK"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                         <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdV-TS-Jrc">
-                                        <rect key="frame" x="10" y="10" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdV-TS-Jrc">
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="53"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2498,26 +2504,23 @@
                                             <segue destination="ry3-Op-Zvt" kind="show" id="nD8-ad-cHY"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fke-UA-SD0">
-                                        <rect key="frame" x="0.0" y="53" width="375" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fke-UA-SD0">
+                                        <rect key="frame" x="0.0" y="53" width="375" height="46"/>
                                         <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="p66-1q-QWL"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                         <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVI-3H-d6P">
-                                        <rect key="frame" x="10" y="96" width="357" height="109"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVI-3H-d6P">
+                                        <rect key="frame" x="0.0" y="99" width="375" height="131"/>
                                         <string key="text">Casti juniors go on a Global Investigators trip to learn about a foreign country and interact with natives. What Global Investigators country is this? </string>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DR" translatesAutoresizingMaskIntoConstraints="NO" id="t9b-1U-Cux">
-                                        <rect key="frame" x="0.0" y="213" width="375" height="286"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="qPc-zN-2xV">
                                         <rect key="frame" x="37" y="487" width="65" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2560,8 +2563,26 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DR" translatesAutoresizingMaskIntoConstraints="NO" id="t9b-1U-Cux">
+                                        <rect key="frame" x="30" y="217" width="315" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="pdV-TS-Jrc" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leadingMargin" id="7br-s6-2oD"/>
+                                    <constraint firstItem="pdV-TS-Jrc" firstAttribute="top" secondItem="lE8-a3-0aN" secondAttribute="topMargin" id="XwT-Yx-EQk"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="cVI-3H-d6P" secondAttribute="trailing" id="aYo-Cc-FCo"/>
+                                    <constraint firstItem="fke-UA-SD0" firstAttribute="top" secondItem="VOj-9J-gKW" secondAttribute="bottom" id="bgJ-2h-ggR"/>
+                                    <constraint firstItem="VOj-9J-gKW" firstAttribute="top" secondItem="lE8-a3-0aN" secondAttribute="topMargin" id="dIK-pR-nQ6"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="fke-UA-SD0" secondAttribute="trailing" id="e7H-bm-x1j"/>
+                                    <constraint firstItem="fke-UA-SD0" firstAttribute="top" secondItem="pdV-TS-Jrc" secondAttribute="bottom" id="k1p-qa-Fsq"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="VOj-9J-gKW" secondAttribute="trailing" id="pZJ-WI-W4u"/>
+                                    <constraint firstItem="cVI-3H-d6P" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leadingMargin" id="qWe-gX-Jgj"/>
+                                    <constraint firstItem="cVI-3H-d6P" firstAttribute="top" secondItem="fke-UA-SD0" secondAttribute="bottom" id="qYC-cL-7zW"/>
+                                    <constraint firstItem="fke-UA-SD0" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leadingMargin" id="xy6-Xk-yEU"/>
+                                    <constraint firstItem="VOj-9J-gKW" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leadingMargin" id="ykF-0d-fBJ"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2571,7 +2592,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tr0-Vl-w3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6566" y="380"/>
+            <point key="canvasLocation" x="6565.9420289855079" y="379.89130434782612"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eVb-o5-5op">
@@ -4363,6 +4384,56 @@
                                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Every year the Middle School performs a musical. Can you guess which musical this quote is from?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAE-CF-rnM">
+                                                <rect key="frame" x="8" y="96" width="359" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Overpass-Bold" family="Overpass" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I'll meet him there at Harvard with the book in my hand. Big sturdy book, big wordy book, full of words I'll understand.&quot; " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sz-pZ-GIh">
+                                                <rect key="frame" x="10" y="226" width="359" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Overpass-Italic" family="Overpass" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcX-Yj-lBF">
+                                                <rect key="frame" x="45" y="402" width="285" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.65079251686120487" blue="0.83915605749920541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Overpass-Bold" family="Overpass" pointSize="29"/>
+                                                <state key="normal" title="Legally Blonde">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdC-XV-4QE">
+                                                <rect key="frame" x="45" y="491" width="285" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.3053707877075193" green="0.82279985367746089" blue="0.96860832253886009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Overpass-Bold" family="Overpass" pointSize="29"/>
+                                                <state key="normal" title="The Music Man">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZg-Sx-ZAV">
+                                                <rect key="frame" x="45" y="583" width="285" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Overpass-Bold" family="Overpass" pointSize="29"/>
+                                                <state key="normal" title="The Addams Family">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVI-cg-f4o">
+                                                <rect key="frame" x="45" y="677" width="285" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Overpass-Bold" family="Overpass" pointSize="29"/>
+                                                <state key="normal" title="School House Rock">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -4401,7 +4472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x88-ta-Ub4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9979" y="-458"/>
+            <point key="canvasLocation" x="9978.9855072463779" y="-458.1521739130435"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eIU-RC-5f1">
@@ -4874,7 +4945,6 @@
         <image name="waterpolo" width="626" height="626"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ibd-d7-rU8"/>
         <segue reference="9dS-LY-fcV"/>
         <segue reference="ShP-ta-WZy"/>
         <segue reference="Db9-qC-v4X"/>
@@ -4888,6 +4958,6 @@
         <segue reference="pZv-vs-Gja"/>
         <segue reference="mZf-k1-ex4"/>
         <segue reference="WlC-A7-ntd"/>
-        <segue reference="tu6-7A-eyU"/>
+        <segue reference="lMf-ng-lL5"/>
     </inferredMetricsTieBreakers>
 </document>
