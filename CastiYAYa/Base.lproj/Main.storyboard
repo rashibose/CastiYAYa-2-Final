@@ -1458,7 +1458,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jql-G7-eWh">
-                                                <rect key="frame" x="0.0" y="0.0" width="298" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="253" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Middle School Lobby ">
@@ -1469,7 +1469,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Di2-6q-soU">
-                                                <rect key="frame" x="298" y="0.0" width="116" height="44"/>
+                                                <rect key="frame" x="253" y="0.0" width="161" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Fishbowl ">
@@ -1511,7 +1511,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-Dl-NYE">
-                                                <rect key="frame" x="164" y="0.0" width="97" height="44"/>
+                                                <rect key="frame" x="164" y="0.0" width="169" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gallery ">
@@ -1522,7 +1522,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPR-Ra-oWk">
-                                                <rect key="frame" x="261" y="0.0" width="153" height="44"/>
+                                                <rect key="frame" x="333" y="0.0" width="81" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Circle ">
@@ -1995,132 +1995,137 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ANL-7d-O1X">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ANL-7d-O1X">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41y-YF-tcU">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41y-YF-tcU">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                         <color key="backgroundColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="xti-wY-UwF"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                         <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETI-2h-6Ng">
-                                        <rect key="frame" x="10" y="10" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjd-r0-LaT">
+                                        <rect key="frame" x="8" y="28" width="46" height="16"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="46" id="US8-fV-bjJ"/>
-                                            <constraint firstAttribute="height" constant="30" id="p8e-NO-jMT"/>
+                                            <constraint firstAttribute="width" constant="46" id="5A8-76-YfT"/>
+                                            <constraint firstAttribute="height" constant="16" id="fxs-u8-eIm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="ipj-Nv-sSh" kind="show" id="brg-VE-bpP"/>
+                                            <segue destination="ipj-Nv-sSh" kind="show" id="Jbm-gm-JHo"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh3-4v-R3W">
-                                        <rect key="frame" x="0.0" y="53" width="375" height="35"/>
-                                        <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
-                                        <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBP-Fb-Stc">
-                                        <rect key="frame" x="10" y="96" width="357" height="109"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBP-Fb-Stc">
+                                        <rect key="frame" x="0.0" y="86" width="375" height="166"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="166" id="Z3R-O3-dYq"/>
+                                        </constraints>
                                         <string key="text">Casti juniors go on a Global Investigators trip to learn about a foreign country and interact with natives. What Global Investigators country is this? </string>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DR" translatesAutoresizingMaskIntoConstraints="NO" id="CSV-hb-eOy">
-                                        <rect key="frame" x="0.0" y="213" width="373" height="286"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DR" translatesAutoresizingMaskIntoConstraints="NO" id="CSV-hb-eOy">
+                                        <rect key="frame" x="0.0" y="216" width="375" height="282"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="282" id="JbA-q8-rDd"/>
+                                        </constraints>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="a7j-d5-rV3">
-                                        <rect key="frame" x="100" y="498" width="174.33333333333331" height="136"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-hj-pZj">
-                                                <rect key="frame" x="0.0" y="0.0" width="174.33333333333334" height="34"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="174" id="OxP-Bx-q61"/>
-                                                    <constraint firstAttribute="height" constant="34" id="tXu-2J-leZ"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
-                                                <state key="normal" title="A) Costa Rica">
-                                                    <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="TMV-IQ-z2B" kind="show" id="Ibd-d7-rU8"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63t-ia-UlU">
-                                                <rect key="frame" x="0.0" y="34" width="174.33333333333334" height="34"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="174" id="1U8-vq-DgD"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="TQJ-MI-sQz"/>
-                                                    <constraint firstAttribute="height" constant="34" id="Wic-Qa-s97"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
-                                                <state key="normal" title="B) Bolivia">
-                                                    <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="TMV-IQ-z2B" kind="show" id="ev6-0S-rqI"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUb-eL-k4Q">
-                                                <rect key="frame" x="0.0" y="68" width="174.33333333333334" height="34"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="34" id="0Ny-da-d4h"/>
-                                                    <constraint firstAttribute="width" constant="174" id="9t3-Iw-4t5"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
-                                                <state key="normal" title="C) Dominican Republic">
-                                                    <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbH-ms-TJE">
-                                                <rect key="frame" x="0.0" y="102" width="174.33333333333334" height="34"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="174" id="Zfc-DW-R5t"/>
-                                                    <constraint firstAttribute="height" constant="34" id="Zs7-IE-i4i"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
-                                                <state key="normal" title="D) Singapore">
-                                                    <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="TMV-IQ-z2B" kind="show" id="Hdg-jS-Fpa"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh3-4v-R3W">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="43"/>
+                                        <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="0UY-VS-p79"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
+                                        <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-hj-pZj">
+                                        <rect key="frame" x="0.0" y="467" width="375" height="34"/>
+                                        <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
+                                        <state key="normal" title="A) Costa Rica">
+                                            <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="TMV-IQ-z2B" kind="show" id="Ibd-d7-rU8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzD-cJ-haB">
+                                        <rect key="frame" x="0.0" y="497" width="375" height="34"/>
+                                        <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
+                                        <state key="normal" title="B) Bolivia">
+                                            <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRE-5N-M7W">
+                                        <rect key="frame" x="0.0" y="532" width="375" height="34"/>
+                                        <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
+                                        <state key="normal" title="C) Dominican Republic">
+                                            <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-5E-wki">
+                                        <rect key="frame" x="0.0" y="567" width="375" height="34"/>
+                                        <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
+                                        <state key="normal" title="D) Singapore">
+                                            <color key="titleColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="top" secondItem="41y-YF-tcU" secondAttribute="bottom" id="Csm-Tz-7gy"/>
-                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="top" secondItem="ETI-2h-6Ng" secondAttribute="bottom" constant="13" id="DB0-w0-Qm6"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="41y-YF-tcU" secondAttribute="trailing" id="DSx-RE-Lwc"/>
-                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="leading" secondItem="ANL-7d-O1X" secondAttribute="leadingMargin" id="ECe-mJ-mdw"/>
-                                    <constraint firstItem="41y-YF-tcU" firstAttribute="top" secondItem="ANL-7d-O1X" secondAttribute="topMargin" id="OYz-xn-WQG"/>
-                                    <constraint firstItem="ETI-2h-6Ng" firstAttribute="top" secondItem="ANL-7d-O1X" secondAttribute="top" constant="10" id="Zvv-KT-rWJ"/>
-                                    <constraint firstItem="ETI-2h-6Ng" firstAttribute="leading" secondItem="VBP-Fb-Stc" secondAttribute="leading" id="fEf-x5-mgA"/>
-                                    <constraint firstItem="a7j-d5-rV3" firstAttribute="centerX" secondItem="ANL-7d-O1X" secondAttribute="centerX" id="fge-Eu-uzq"/>
-                                    <constraint firstItem="ETI-2h-6Ng" firstAttribute="leading" secondItem="ANL-7d-O1X" secondAttribute="leading" constant="10" id="gpf-ty-P8W"/>
-                                    <constraint firstItem="41y-YF-tcU" firstAttribute="leading" secondItem="ANL-7d-O1X" secondAttribute="leadingMargin" id="htX-ui-rhb"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="dh3-4v-R3W" secondAttribute="trailing" id="qMC-WJ-Lwr"/>
+                                    <constraint firstItem="bRE-5N-M7W" firstAttribute="trailing" secondItem="GlF-5E-wki" secondAttribute="trailing" id="36c-Jc-Rre"/>
+                                    <constraint firstItem="VBP-Fb-Stc" firstAttribute="trailing" secondItem="CSV-hb-eOy" secondAttribute="trailing" id="5qG-cb-jVP"/>
+                                    <constraint firstAttribute="trailing" secondItem="41y-YF-tcU" secondAttribute="trailing" id="6VQ-OB-nFz"/>
+                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="trailing" secondItem="VBP-Fb-Stc" secondAttribute="trailing" id="85D-qS-nPP"/>
+                                    <constraint firstItem="CSV-hb-eOy" firstAttribute="trailing" secondItem="eWM-hj-pZj" secondAttribute="trailing" id="EvT-is-ahj"/>
+                                    <constraint firstItem="CSV-hb-eOy" firstAttribute="top" secondItem="VBP-Fb-Stc" secondAttribute="bottom" constant="-36" id="FpK-r5-kOl"/>
+                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="top" secondItem="Bjd-r0-LaT" secondAttribute="bottom" constant="20" id="IKv-PP-T8M"/>
+                                    <constraint firstItem="eWM-hj-pZj" firstAttribute="trailing" secondItem="zzD-cJ-haB" secondAttribute="trailing" id="Kyh-IO-Fdy"/>
+                                    <constraint firstItem="41y-YF-tcU" firstAttribute="leading" secondItem="dh3-4v-R3W" secondAttribute="leading" id="NTq-Ah-ynV"/>
+                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="leading" secondItem="VBP-Fb-Stc" secondAttribute="leading" id="Rxe-e1-lju"/>
+                                    <constraint firstItem="41y-YF-tcU" firstAttribute="top" secondItem="ANL-7d-O1X" secondAttribute="top" id="SCr-Vk-h2M"/>
+                                    <constraint firstItem="GlF-5E-wki" firstAttribute="top" secondItem="bRE-5N-M7W" secondAttribute="bottom" constant="1" id="SzR-kh-aCA"/>
+                                    <constraint firstItem="eWM-hj-pZj" firstAttribute="top" secondItem="CSV-hb-eOy" secondAttribute="bottom" constant="-31" id="VK6-0i-6vo"/>
+                                    <constraint firstItem="eWM-hj-pZj" firstAttribute="leading" secondItem="zzD-cJ-haB" secondAttribute="leading" id="Whr-Y2-F25"/>
+                                    <constraint firstItem="VBP-Fb-Stc" firstAttribute="top" secondItem="41y-YF-tcU" secondAttribute="bottom" constant="21" id="arr-o5-NjN"/>
+                                    <constraint firstItem="Bjd-r0-LaT" firstAttribute="top" secondItem="ANL-7d-O1X" secondAttribute="topMargin" id="hnd-ed-isK"/>
+                                    <constraint firstItem="zzD-cJ-haB" firstAttribute="top" secondItem="CSV-hb-eOy" secondAttribute="bottom" constant="-1" id="iCV-nw-OQw"/>
+                                    <constraint firstItem="Bjd-r0-LaT" firstAttribute="leading" secondItem="ANL-7d-O1X" secondAttribute="leadingMargin" id="pCL-Al-LVM"/>
+                                    <constraint firstItem="VBP-Fb-Stc" firstAttribute="leading" secondItem="CSV-hb-eOy" secondAttribute="leading" id="pVB-tL-QsH"/>
+                                    <constraint firstItem="zzD-cJ-haB" firstAttribute="trailing" secondItem="bRE-5N-M7W" secondAttribute="trailing" id="pmr-VM-Py3"/>
+                                    <constraint firstItem="CSV-hb-eOy" firstAttribute="leading" secondItem="eWM-hj-pZj" secondAttribute="leading" id="qri-TK-MiV"/>
+                                    <constraint firstItem="41y-YF-tcU" firstAttribute="trailing" secondItem="dh3-4v-R3W" secondAttribute="trailing" id="t5q-fr-RYp"/>
+                                    <constraint firstItem="bRE-5N-M7W" firstAttribute="top" secondItem="zzD-cJ-haB" secondAttribute="bottom" constant="1" id="tfb-Ql-LQZ"/>
+                                    <constraint firstItem="dh3-4v-R3W" firstAttribute="top" secondItem="ANL-7d-O1X" secondAttribute="top" constant="64" id="tzU-j1-CbM"/>
+                                    <constraint firstItem="zzD-cJ-haB" firstAttribute="leading" secondItem="bRE-5N-M7W" secondAttribute="leading" id="x7O-pK-WoL"/>
+                                    <constraint firstItem="41y-YF-tcU" firstAttribute="leading" secondItem="ANL-7d-O1X" secondAttribute="leading" id="xLt-RE-zHD"/>
+                                    <constraint firstItem="bRE-5N-M7W" firstAttribute="leading" secondItem="GlF-5E-wki" secondAttribute="leading" id="zWA-Pe-htU"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ANL-7d-O1X" firstAttribute="top" secondItem="HO9-hf-diI" secondAttribute="top" id="673-el-lLX"/>
+                            <constraint firstAttribute="bottom" secondItem="ANL-7d-O1X" secondAttribute="bottom" constant="-100" id="akG-JA-Inc"/>
+                            <constraint firstAttribute="trailing" secondItem="ANL-7d-O1X" secondAttribute="trailing" id="ocE-CY-5LM"/>
+                            <constraint firstItem="ANL-7d-O1X" firstAttribute="leading" secondItem="HO9-hf-diI" secondAttribute="leading" id="xKT-bK-mSp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OVd-u6-XaK"/>
                     </view>
                     <size key="freeformSize" width="375" height="900"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7n-GK-GTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6566" y="-499"/>
+            <point key="canvasLocation" x="6565.9420289855079" y="-499.72826086956525"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EPh-k7-msq">
@@ -2470,24 +2475,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lE8-a3-0aN">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lE8-a3-0aN">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOj-9J-gKW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOj-9J-gKW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="sV4-qg-1xO"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                         <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdV-TS-Jrc">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdV-TS-Jrc">
                                         <rect key="frame" x="10" y="10" width="46" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="46" id="osE-M2-a9Y"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2496,44 +2498,34 @@
                                             <segue destination="ry3-Op-Zvt" kind="show" id="nD8-ad-cHY"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fke-UA-SD0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trips" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fke-UA-SD0">
                                         <rect key="frame" x="0.0" y="53" width="375" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.25490196079999999" green="0.68627450980000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                         <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVI-3H-d6P">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVI-3H-d6P">
                                         <rect key="frame" x="10" y="96" width="357" height="109"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="357" id="frk-u6-i6f"/>
-                                            <constraint firstAttribute="height" constant="109" id="rOD-ll-FkE"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Casti juniors go on a Global Investigators trip to learn about a foreign country and interact with natives. What Global Investigators country is this? </string>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DR" translatesAutoresizingMaskIntoConstraints="NO" id="t9b-1U-Cux">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DR" translatesAutoresizingMaskIntoConstraints="NO" id="t9b-1U-Cux">
                                         <rect key="frame" x="0.0" y="213" width="375" height="286"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="286" id="Smn-r6-B9L"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="qPc-zN-2xV">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="qPc-zN-2xV">
                                         <rect key="frame" x="37" y="487" width="65" height="51"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="51" id="dUW-PQ-qxs"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="so9-6c-vGl"/>
-                                            <constraint firstAttribute="width" constant="65" id="zpx-0h-ijq"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEp-Fw-Xey">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEp-Fw-Xey">
                                         <rect key="frame" x="572" y="814" width="36" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="1dH-zm-Wtd"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                         <state key="normal" title="Next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2542,23 +2534,17 @@
                                             <segue destination="UVg-cd-cAM" kind="show" id="bdL-0D-fCq"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Spanish-speaking juniors can go to the Dominican Republic for their Global Investigators trip.  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daM-uQ-Ptm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spanish-speaking juniors can go to the Dominican Republic for their Global Investigators trip.  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daM-uQ-Ptm">
                                         <rect key="frame" x="19" y="541" width="335" height="110"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="110" id="KSs-US-Zp8"/>
-                                            <constraint firstAttribute="width" constant="335" id="hil-Yg-jMu"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARG-jY-ask">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARG-jY-ask">
                                         <rect key="frame" x="121" y="684" width="128" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="128" id="aSN-3w-FSP"/>
-                                            <constraint firstAttribute="height" constant="30" id="l63-Wx-R8m"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                         <state key="normal" title="Next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2567,41 +2553,15 @@
                                             <segue destination="UVg-cd-cAM" kind="show" id="nJP-PO-rbJ"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Incorrect!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuJ-19-vpA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuJ-19-vpA">
                                         <rect key="frame" x="121" y="492" width="199" height="41"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="41" id="uGh-cO-3gF"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="43"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="cVI-3H-d6P" firstAttribute="leading" secondItem="pdV-TS-Jrc" secondAttribute="leading" id="0zd-rT-aXF"/>
-                                    <constraint firstItem="t9b-1U-Cux" firstAttribute="top" secondItem="cVI-3H-d6P" secondAttribute="bottom" constant="8" symbolic="YES" id="1aM-mQ-nkl"/>
-                                    <constraint firstItem="ARG-jY-ask" firstAttribute="top" secondItem="daM-uQ-Ptm" secondAttribute="bottom" constant="33" id="35k-pK-xoT"/>
-                                    <constraint firstItem="VuJ-19-vpA" firstAttribute="leading" secondItem="qPc-zN-2xV" secondAttribute="trailing" constant="28" id="5ea-TJ-c6H"/>
-                                    <constraint firstItem="VOj-9J-gKW" firstAttribute="leading" secondItem="fke-UA-SD0" secondAttribute="leading" id="A8E-of-Pgh"/>
-                                    <constraint firstItem="VOj-9J-gKW" firstAttribute="top" secondItem="lE8-a3-0aN" secondAttribute="top" id="AG5-pJ-h0R"/>
-                                    <constraint firstItem="VOj-9J-gKW" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leading" id="CNQ-gB-SBf"/>
-                                    <constraint firstItem="VOj-9J-gKW" firstAttribute="trailing" secondItem="fke-UA-SD0" secondAttribute="trailing" id="IN9-QD-YHG"/>
-                                    <constraint firstItem="qPc-zN-2xV" firstAttribute="centerY" secondItem="VuJ-19-vpA" secondAttribute="centerY" id="J2K-M1-ZPJ"/>
-                                    <constraint firstItem="pdV-TS-Jrc" firstAttribute="top" secondItem="lE8-a3-0aN" secondAttribute="top" constant="10" id="Jpk-u6-JiA"/>
-                                    <constraint firstItem="t9b-1U-Cux" firstAttribute="leading" secondItem="fke-UA-SD0" secondAttribute="leading" id="NL2-gw-3YO"/>
-                                    <constraint firstItem="ARG-jY-ask" firstAttribute="centerX" secondItem="fke-UA-SD0" secondAttribute="centerX" id="OZb-jO-MwT"/>
-                                    <constraint firstAttribute="trailing" secondItem="VOj-9J-gKW" secondAttribute="trailing" id="Oza-aB-jTc"/>
-                                    <constraint firstItem="cVI-3H-d6P" firstAttribute="top" secondItem="fke-UA-SD0" secondAttribute="bottom" constant="8" symbolic="YES" id="T9k-uY-pF8"/>
-                                    <constraint firstItem="fke-UA-SD0" firstAttribute="top" secondItem="VOj-9J-gKW" secondAttribute="bottom" id="Whs-Ek-XgB"/>
-                                    <constraint firstAttribute="height" constant="1000" id="a20-li-1T0"/>
-                                    <constraint firstItem="pdV-TS-Jrc" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leading" constant="10" id="ait-yy-9RL"/>
-                                    <constraint firstItem="qPc-zN-2xV" firstAttribute="leading" secondItem="lE8-a3-0aN" secondAttribute="leading" constant="39" id="c8I-7V-o3y"/>
-                                    <constraint firstItem="t9b-1U-Cux" firstAttribute="centerX" secondItem="ARG-jY-ask" secondAttribute="centerX" id="eAx-1y-tUd"/>
-                                    <constraint firstItem="daM-uQ-Ptm" firstAttribute="top" secondItem="VuJ-19-vpA" secondAttribute="bottom" constant="8" symbolic="YES" id="eL8-Tf-jy6"/>
-                                    <constraint firstItem="fke-UA-SD0" firstAttribute="top" secondItem="pdV-TS-Jrc" secondAttribute="bottom" constant="13" id="vta-ue-mMo"/>
-                                    <constraint firstItem="cVI-3H-d6P" firstAttribute="centerX" secondItem="daM-uQ-Ptm" secondAttribute="centerX" id="xr2-7G-qcN"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3446,6 +3406,68 @@
                                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bVe-Hu-Hha">
+                                                <rect key="frame" x="1" y="96" width="357" height="106.66666666666667"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="4W1-7w-cEd"/>
+                                                    <constraint firstAttribute="width" constant="357" id="jFZ-dA-nFo"/>
+                                                    <constraint firstAttribute="height" constant="130" id="nkH-lz-TYT"/>
+                                                </constraints>
+                                                <string key="text">On this page, check out some of the sports teams you could join next year at Casti, and some testimonials from girls who've participated in them!</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i9R-SD-4TG">
+                                                <rect key="frame" x="2" y="241" width="357" height="289"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="jUN-Lq-f4T"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="n0O-br-r1R"/>
+                                                    <constraint firstAttribute="width" constant="357" id="qij-87-Lxz"/>
+                                                </constraints>
+                                                <string key="text">-  Practices in the fall season
+-  Typically fields three teams: VA and VB for 7th and 8th grade athletes, and JVA for 6th grade athletes
+-  Teams play six or seven games during the course of the season
+</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Testimonial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfZ-E8-rzX">
+                                                <rect key="frame" x="2" y="529" width="110" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="7Qp-wk-UqJ"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="O4J-dt-HQj"/>
+                                                    <constraint firstAttribute="width" constant="110" id="ghM-Dj-xfV"/>
+                                                    <constraint firstAttribute="height" constant="27" id="vHg-7n-gjL"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="vKX-HX-oeN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-AD-Nzl">
+                                                <rect key="frame" x="0.0" y="556" width="357" height="242.66666666666666"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="265.33333333333331" id="Sfj-rZ-xpB"/>
+                                                    <constraint firstAttribute="width" constant="357" id="wUI-fj-lEz"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="zXO-tc-fJz"/>
+                                                </constraints>
+                                                <string key="text">“I've always liked the variety in Castilleja classes. There are so many interesting projects apart from just lectures on material. In 6th grade math, we used our statistics skills to analyze two different fast food restaurants of our choice. In 8th grade history, we designed and built our own monument. In 10th grade English, we staged an entire trial of Macbeth.” -Alexa Crowder, ‘20</string>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Softball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="df9-nf-GFK">
+                                                <rect key="frame" x="8" y="206" width="72" height="27"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="Uu5-b0-YEj"/>
+                                                    <constraint firstAttribute="height" constant="27" id="VC8-wO-ztT"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="27" id="XfQ-Ps-swP"/>
+                                                    <constraint firstAttribute="width" constant="110" id="mBv-xf-FHE"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="27" id="q6D-mV-XYr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
+                                                <color key="textColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -4117,12 +4139,12 @@
                                                     <constraint firstAttribute="height" constant="265.33333333333331" id="pXK-UR-ot3"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="265.33333333333331" id="qA0-SO-tTA"/>
                                                 </constraints>
-                                                <mutableString key="text">-  From our earliest human ancestors to the fall of Rome, this course explores what it means to be human and how civilizations around the world have developed and declined
+                                                <string key="text">-  From our earliest human ancestors to the fall of Rome, this course explores what it means to be human and how civilizations around the world have developed and declined
 -  Begin by reading about Herodotus and asking, "What is history?" 
 -  Learning how to analyze a primary source and how to provide evidence to defend our claims
 -  Projects all involve student choice and voice; students create historical replicas, illustrations, iMovies, posters, and oral presentations. 
 -  Girls begin to construct their own ideas about world issues and to see themselves as historical actors.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -4251,12 +4273,12 @@
                                                     <constraint firstAttribute="height" constant="265.33333333333331" id="fBG-8u-Ljn"/>
                                                     <constraint firstAttribute="width" constant="357" id="ugC-x9-E8k"/>
                                                 </constraints>
-                                                <mutableString key="text">-  Fitness units include cooperative games, swimming, team and individual sports such as tchoukball, track and field, pickleball, disc lacrosse, and striking and fielding. 
+                                                <string key="text">-  Fitness units include cooperative games, swimming, team and individual sports such as tchoukball, track and field, pickleball, disc lacrosse, and striking and fielding. 
 -  Emphasis is placed on acquisition and building of movement skills through sequential learning and practiced motor patterns, and then applied in activities or games. 
 -  Students have opportunities for creativity and self-expression while collaborating on group routines in the Acro-Yoga and Circus units. 
 -  Wellness units give students the opportunity to engage in discussions, connect with peers, share authentically, practice skills through role play, learn skills related to overall social and emotional health, and to reflect on their individual journey. 
 -  Students participate in a series of lessons and activities to promote healthy choices about emotional health, communication, relationships, nutrition, exercise, time management, and human growth and development.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -4852,13 +4874,13 @@
         <image name="waterpolo" width="626" height="626"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Ibd-d7-rU8"/>
         <segue reference="9dS-LY-fcV"/>
         <segue reference="ShP-ta-WZy"/>
         <segue reference="Db9-qC-v4X"/>
         <segue reference="5yk-GP-dX9"/>
         <segue reference="bdL-0D-fCq"/>
-        <segue reference="Hdg-jS-Fpa"/>
-        <segue reference="wTa-Qn-W0e"/>
+        <segue reference="nD8-ad-cHY"/>
         <segue reference="rg8-B6-iTu"/>
         <segue reference="33P-xD-a5B"/>
         <segue reference="IVh-ZG-UxZ"/>
@@ -4866,6 +4888,6 @@
         <segue reference="pZv-vs-Gja"/>
         <segue reference="mZf-k1-ex4"/>
         <segue reference="WlC-A7-ntd"/>
-        <segue reference="lMf-ng-lL5"/>
+        <segue reference="tu6-7A-eyU"/>
     </inferredMetricsTieBreakers>
 </document>
