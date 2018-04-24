@@ -1496,7 +1496,7 @@
                                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7c-IX-0Vd">
-                                                <rect key="frame" x="0.0" y="0.0" width="66" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gym ">
@@ -1507,7 +1507,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-Be-RWa">
-                                                <rect key="frame" x="66" y="0.0" width="98" height="44"/>
+                                                <rect key="frame" x="138" y="0.0" width="98" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Library ">
@@ -1518,7 +1518,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-Dl-NYE">
-                                                <rect key="frame" x="164" y="0.0" width="97" height="44"/>
+                                                <rect key="frame" x="236" y="0.0" width="97" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Gallery ">
@@ -1529,7 +1529,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPR-Ra-oWk">
-                                                <rect key="frame" x="261" y="0.0" width="153" height="44"/>
+                                                <rect key="frame" x="333" y="0.0" width="81" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Circle ">
@@ -1545,7 +1545,7 @@
                                         <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIg-cB-GzO">
-                                                <rect key="frame" x="0.0" y="0.0" width="133" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="223" height="44"/>
                                                 <color key="backgroundColor" red="0.95352979270000005" green="0.59602094890000001" blue="0.1064729569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Bourn Lab ">
@@ -1556,7 +1556,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id8-eT-MNc">
-                                                <rect key="frame" x="133" y="0.0" width="281" height="44"/>
+                                                <rect key="frame" x="223" y="0.0" width="191" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="25"/>
                                                 <state key="normal" title=" Chapel Theatre ">
@@ -2281,55 +2281,6 @@
                                     <color key="titleColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="BNU-a0-N4j">
-                                <rect key="frame" x="74" y="364" width="73" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correct!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuU-0K-ql1">
-                                <rect key="frame" x="172" y="388" width="222" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="43"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Noodle Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7X-gH-whh">
-                                <rect key="frame" x="244" y="132" width="170" height="169"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="169" id="BMf-ps-so8"/>
-                                    <constraint firstAttribute="width" constant="170" id="It1-jg-sgb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="icons8-noodles-100" translatesAutoresizingMaskIntoConstraints="NO" id="get-f6-lAH">
-                                <rect key="frame" x="0.0" y="132" width="236" height="169"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="169" id="7Ui-PO-SWE"/>
-                                    <constraint firstAttribute="width" secondItem="get-f6-lAH" secondAttribute="height" multiplier="236:169" id="AkO-nE-cLs"/>
-                                    <constraint firstAttribute="width" constant="236" id="fbM-fR-WcM"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4U-8v-o83">
-                                <rect key="frame" x="150" y="641" width="115" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
-                                <state key="normal" title="Learn More">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mYL-a4-AOr" kind="show" id="5yk-GP-dX9"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52a-q3-XuQ">
-                                <rect key="frame" x="34" y="469" width="346" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Noodle Bar is Casti students' favorite lunch item! Although Noodle Bar is not served often, whenever it is on the menu there is a long line at lunch. Click on Learn More to find out about other popular lunches</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uha-e7-o9K">
                                 <rect key="frame" x="0.0" y="65" width="414" height="43"/>
                                 <color key="backgroundColor" red="0.72160392999649048" green="0.16857695579528809" blue="0.21872052550315857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2340,15 +2291,98 @@
                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="BNU-a0-N4j">
+                                <rect key="frame" x="84" y="356" width="80" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Dzw-dA-iO3"/>
+                                    <constraint firstAttribute="height" constant="74" id="i9H-FX-BNw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct!               " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuU-0K-ql1">
+                                <rect key="frame" x="172" y="356" width="242" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="RbO-ed-nFq"/>
+                                    <constraint firstAttribute="height" constant="73" id="pRS-VE-glg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noodle Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7X-gH-whh">
+                                <rect key="frame" x="244" y="132" width="170" height="169"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="169" id="BMf-ps-so8"/>
+                                    <constraint firstAttribute="width" constant="170" id="It1-jg-sgb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Overpass-SemiBold" family="Overpass" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-noodles-100" translatesAutoresizingMaskIntoConstraints="NO" id="get-f6-lAH">
+                                <rect key="frame" x="0.0" y="132" width="236" height="169"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="169" id="7Ui-PO-SWE"/>
+                                    <constraint firstAttribute="width" secondItem="get-f6-lAH" secondAttribute="height" multiplier="236:169" id="AkO-nE-cLs"/>
+                                    <constraint firstAttribute="width" constant="236" id="fbM-fR-WcM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52a-q3-XuQ">
+                                <rect key="frame" x="0.0" y="469" width="414" height="81.333333333333371"/>
+                                <string key="text">Noodle Bar is Casti students' favorite lunch item! Although Noodle Bar is not served often, whenever it is on the menu there is a long line at lunch. Click on Learn More to find out about other popular lunches</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMw-sI-2VW">
+                                <rect key="frame" x="-2" y="356" width="78" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="2L9-BL-aSu"/>
+                                    <constraint firstAttribute="height" constant="74" id="Wbb-p5-Xax"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4U-8v-o83">
+                                <rect key="frame" x="144" y="599" width="126" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Uf6-Tz-hnH"/>
+                                    <constraint firstAttribute="width" constant="126" id="pdw-UM-liG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mYL-a4-AOr" kind="show" id="5yk-GP-dX9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Q7X-gH-whh" firstAttribute="top" secondItem="uha-e7-o9K" secondAttribute="bottom" constant="24" id="1ZJ-tr-miO"/>
+                            <constraint firstItem="52a-q3-XuQ" firstAttribute="top" secondItem="BNU-a0-N4j" secondAttribute="bottom" constant="39" id="2Dp-y9-M0x"/>
+                            <constraint firstItem="52a-q3-XuQ" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="2sG-nj-wUE"/>
+                            <constraint firstItem="Q7X-gH-whh" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="3uG-Xb-Ne9"/>
                             <constraint firstItem="HoA-C4-lU0" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="6w7-mP-WWR"/>
+                            <constraint firstItem="c4U-8v-o83" firstAttribute="top" secondItem="52a-q3-XuQ" secondAttribute="bottom" constant="48.670000000000002" id="95d-iU-7BD"/>
+                            <constraint firstItem="get-f6-lAH" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="9DJ-Jh-NrG"/>
+                            <constraint firstItem="BNU-a0-N4j" firstAttribute="leading" secondItem="DMw-sI-2VW" secondAttribute="trailing" constant="8" id="9KA-0X-gtC"/>
+                            <constraint firstItem="DMw-sI-2VW" firstAttribute="top" secondItem="get-f6-lAH" secondAttribute="bottom" constant="55" id="BPA-vS-mM0"/>
+                            <constraint firstItem="KuU-0K-ql1" firstAttribute="top" secondItem="Q7X-gH-whh" secondAttribute="bottom" constant="55" id="GWw-k8-SGa"/>
                             <constraint firstItem="uha-e7-o9K" firstAttribute="top" secondItem="HoA-C4-lU0" secondAttribute="bottom" id="Hbu-cN-5q0"/>
+                            <constraint firstItem="c4U-8v-o83" firstAttribute="centerX" secondItem="qBy-Aw-xq0" secondAttribute="centerX" id="LuV-Sh-Ugn"/>
                             <constraint firstItem="uha-e7-o9K" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="OlX-sx-18g"/>
+                            <constraint firstItem="BNU-a0-N4j" firstAttribute="top" secondItem="get-f6-lAH" secondAttribute="bottom" constant="55" id="RaR-4G-avs"/>
                             <constraint firstItem="HoA-C4-lU0" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="TX7-Kd-GgD"/>
+                            <constraint firstItem="Q7X-gH-whh" firstAttribute="leading" secondItem="get-f6-lAH" secondAttribute="trailing" constant="8" id="Tg4-9K-zJT"/>
+                            <constraint firstItem="DMw-sI-2VW" firstAttribute="leading" secondItem="qBy-Aw-xq0" secondAttribute="leading" constant="-2" id="Uas-e7-g9Q"/>
+                            <constraint firstItem="52a-q3-XuQ" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="XMx-ke-hEj"/>
                             <constraint firstItem="uha-e7-o9K" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="dqV-pU-zfz"/>
                             <constraint firstItem="HoA-C4-lU0" firstAttribute="top" secondItem="qBy-Aw-xq0" secondAttribute="top" id="klb-ha-SxW"/>
+                            <constraint firstItem="KuU-0K-ql1" firstAttribute="leading" secondItem="BNU-a0-N4j" secondAttribute="trailing" constant="8" id="qrF-Ix-TZ8"/>
+                            <constraint firstItem="get-f6-lAH" firstAttribute="top" secondItem="uha-e7-o9K" secondAttribute="bottom" constant="24" id="wqb-Fj-pBT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DQP-mK-66i"/>
                     </view>
@@ -2716,48 +2750,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-HK-lXA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CastiYAYa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-HK-lXA">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65490196079999996" green="0.094117647060000004" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="1oF-4a-FQ9"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozB-RA-nNb">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozB-RA-nNb">
                                 <rect key="frame" x="10" y="10" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="D5Z-gm-I6v"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.96624028500000003" green="0.96624028500000003" blue="0.96624028500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs8-LP-sXB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs8-LP-sXB">
                                 <rect key="frame" x="0.0" y="53" width="414" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72160393" green="0.16857695580000001" blue="0.21872052550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="e4Z-wQ-646"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="27"/>
                                 <color key="textColor" red="0.97403254530000005" green="0.97403254530000005" blue="0.97403254530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="ICW-dh-ekY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red_X.svg" translatesAutoresizingMaskIntoConstraints="NO" id="ICW-dh-ekY">
                                 <rect key="frame" x="38" y="406" width="65" height="66"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="65" id="Y2w-yl-Ukl"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttA-B4-0pf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttA-B4-0pf">
                                 <rect key="frame" x="147" y="604" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.87281698620000003" blue="0.39133635500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="R6D-kq-ic9"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="Overpass-Regular" family="Overpass" pointSize="17"/>
                                 <state key="normal" title="Learn More">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2777,11 +2801,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Incorrect!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfA-EN-PY3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfA-EN-PY3">
                                 <rect key="frame" x="175" y="419" width="198.66666666666663" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="1f2-7R-vK9"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Overpass-ExtraBold" family="Overpass" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2795,27 +2817,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="trailing" secondItem="rs8-LP-sXB" secondAttribute="trailing" id="1gJ-hR-3Ho"/>
-                            <constraint firstItem="ozB-RA-nNb" firstAttribute="leading" secondItem="LaV-rY-l9V" secondAttribute="leading" constant="10" id="3dt-ct-urZ"/>
-                            <constraint firstItem="MfA-EN-PY3" firstAttribute="leading" secondItem="ICW-dh-ekY" secondAttribute="trailing" constant="28" id="4BA-mw-dhy"/>
-                            <constraint firstItem="rs8-LP-sXB" firstAttribute="trailing" secondItem="LaV-rY-l9V" secondAttribute="trailing" id="8D3-fu-rBn"/>
-                            <constraint firstItem="ICW-dh-ekY" firstAttribute="centerY" secondItem="MfA-EN-PY3" secondAttribute="centerY" id="C1f-bd-UqL"/>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="top" secondItem="ldP-7H-bvI" secondAttribute="top" id="EUV-B6-S2C"/>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="leading" secondItem="ldP-7H-bvI" secondAttribute="leading" id="G9n-QZ-MmR"/>
-                            <constraint firstAttribute="trailing" secondItem="YQU-HK-lXA" secondAttribute="trailing" id="LQw-nC-piT"/>
-                            <constraint firstItem="rs8-LP-sXB" firstAttribute="top" secondItem="YQU-HK-lXA" secondAttribute="bottom" id="REb-uT-4XU"/>
-                            <constraint firstItem="LaV-rY-l9V" firstAttribute="bottom" secondItem="ttA-B4-0pf" secondAttribute="bottom" constant="52" id="SKt-9N-U1U"/>
-                            <constraint firstItem="rs8-LP-sXB" firstAttribute="top" secondItem="ozB-RA-nNb" secondAttribute="bottom" constant="13" id="TJv-qn-A9D"/>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="trailing" secondItem="LaV-rY-l9V" secondAttribute="trailing" id="WM2-bi-bIH"/>
-                            <constraint firstItem="ICW-dh-ekY" firstAttribute="leading" secondItem="LaV-rY-l9V" secondAttribute="leading" constant="33" id="Y5M-zT-syv"/>
-                            <constraint firstItem="rs8-LP-sXB" firstAttribute="top" secondItem="YQU-HK-lXA" secondAttribute="bottom" id="eJF-Hv-SWM"/>
-                            <constraint firstItem="rs8-LP-sXB" firstAttribute="leading" secondItem="LaV-rY-l9V" secondAttribute="leading" id="ebv-xj-W4g"/>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="top" secondItem="ldP-7H-bvI" secondAttribute="topMargin" id="il0-g1-dAR"/>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="leading" secondItem="LaV-rY-l9V" secondAttribute="leading" id="o6p-RV-hiu"/>
-                            <constraint firstItem="YQU-HK-lXA" firstAttribute="leading" secondItem="rs8-LP-sXB" secondAttribute="leading" id="vJA-iz-aql"/>
-                            <constraint firstItem="ozB-RA-nNb" firstAttribute="top" secondItem="ldP-7H-bvI" secondAttribute="topMargin" constant="-10" id="vdz-5z-3XK"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LaV-rY-l9V"/>
                     </view>
                 </viewController>
@@ -4983,11 +4984,10 @@
         <image name="waterpolo" width="626" height="626"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ibd-d7-rU8"/>
         <segue reference="9dS-LY-fcV"/>
         <segue reference="ShP-ta-WZy"/>
         <segue reference="Db9-qC-v4X"/>
-        <segue reference="5yk-GP-dX9"/>
+        <segue reference="GAB-C4-3aK"/>
         <segue reference="bdL-0D-fCq"/>
         <segue reference="nD8-ad-cHY"/>
         <segue reference="rg8-B6-iTu"/>
@@ -4996,7 +4996,7 @@
         <segue reference="Xgp-Wd-TsZ"/>
         <segue reference="pZv-vs-Gja"/>
         <segue reference="mZf-k1-ex4"/>
-        <segue reference="WlC-A7-ntd"/>
+        <segue reference="Bbi-dW-YZ5"/>
         <segue reference="Jbm-gm-JHo"/>
     </inferredMetricsTieBreakers>
 </document>
