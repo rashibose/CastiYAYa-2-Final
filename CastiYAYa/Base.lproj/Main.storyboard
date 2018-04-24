@@ -2292,7 +2292,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noodle Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7X-gH-whh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Noodle Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7X-gH-whh">
                                 <rect key="frame" x="244" y="132" width="170" height="169"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="169" id="BMf-ps-so8"/>
@@ -2302,7 +2302,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-noodles-100" translatesAutoresizingMaskIntoConstraints="NO" id="get-f6-lAH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="icons8-noodles-100" translatesAutoresizingMaskIntoConstraints="NO" id="get-f6-lAH">
                                 <rect key="frame" x="0.0" y="132" width="236" height="169"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="169" id="7Ui-PO-SWE"/>
@@ -2344,17 +2344,11 @@
                         <color key="backgroundColor" red="0.96462148430000005" green="0.96475988629999998" blue="0.96459132430000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="HoA-C4-lU0" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="6w7-mP-WWR"/>
-                            <constraint firstItem="get-f6-lAH" firstAttribute="top" secondItem="uha-e7-o9K" secondAttribute="bottom" constant="24" id="BgZ-KI-m1Q"/>
                             <constraint firstItem="uha-e7-o9K" firstAttribute="top" secondItem="HoA-C4-lU0" secondAttribute="bottom" id="Hbu-cN-5q0"/>
                             <constraint firstItem="uha-e7-o9K" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="OlX-sx-18g"/>
-                            <constraint firstItem="get-f6-lAH" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="SYI-sd-wWK"/>
-                            <constraint firstItem="Q7X-gH-whh" firstAttribute="trailing" secondItem="DQP-mK-66i" secondAttribute="trailing" id="TFO-Xx-z5f"/>
                             <constraint firstItem="HoA-C4-lU0" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="TX7-Kd-GgD"/>
-                            <constraint firstItem="Q7X-gH-whh" firstAttribute="leading" secondItem="get-f6-lAH" secondAttribute="trailing" constant="8" id="cYA-Tf-rfO"/>
                             <constraint firstItem="uha-e7-o9K" firstAttribute="leading" secondItem="DQP-mK-66i" secondAttribute="leading" id="dqV-pU-zfz"/>
                             <constraint firstItem="HoA-C4-lU0" firstAttribute="top" secondItem="qBy-Aw-xq0" secondAttribute="top" id="klb-ha-SxW"/>
-                            <constraint firstItem="Q7X-gH-whh" firstAttribute="top" secondItem="uha-e7-o9K" secondAttribute="bottom" constant="24" id="q9B-c6-eAN"/>
-                            <constraint firstItem="Q7X-gH-whh" firstAttribute="leading" secondItem="get-f6-lAH" secondAttribute="trailing" constant="8" id="tXC-wt-S6d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DQP-mK-66i"/>
                     </view>
